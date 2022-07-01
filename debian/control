@@ -12,7 +12,7 @@ Homepage: https://lubuntu.me
 Rules-Requires-Root: no
 
 Package: lubuntu-installer-prompt
-Architecture: amd64
+Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends},
          calamares-settings-lubuntu,
