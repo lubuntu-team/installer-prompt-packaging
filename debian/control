@@ -13,10 +13,10 @@ Rules-Requires-Root: no
 
 Package: lubuntu-installer-prompt
 Architecture: any
-Depends: ${misc:Depends},
-         ${shlibs:Depends},
-         calamares-settings-lubuntu,
-         qt6-qpa-plugins
+Depends: calamares-settings-lubuntu,
+         qt6-qpa-plugins,
+         ${misc:Depends},
+         ${shlibs:Depends}
 Pre-Depends: ${misc:Pre-Depends}
 Description: Live ISO prompt for trying or installing Lubuntu
  This application displays a screen allowing the user to either try or
