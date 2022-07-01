@@ -1,0 +1,3 @@
+# No CLI interface, and one of these is an internal component of the package.
+lubuntu-installer-prompt: no-manual-page usr/bin/lubuntu-installer
+lubuntu-installer-prompt: no-manual-page usr/bin/lubuntu-installer-prompt
