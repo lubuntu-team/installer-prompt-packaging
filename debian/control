@@ -1,33 +1,25 @@
 Source: lubuntu-installer-prompt
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
 Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
+           Aaron Rainbolt <arraybolt3@gmail.com>
 Section: misc
 Priority: optional
-Build-Depends: debhelper-compat (= 13),
-               cmake,
-               qt6-base-dev,
-               qt6-tools-dev
+Build-Depends: cmake, debhelper-compat (= 13), qt6-base-dev, qt6-tools-dev
 Standards-Version: 4.6.1
 Vcs-Browser: https://github.com/lubuntu-team/installer-prompt/
 Vcs-Git: https://github.com/lubuntu-team/installer-prompt.git
-Homepage: https://github.com/lubuntu-team/installer-prompt
+Homepage: https://lubuntu.me
 Rules-Requires-Root: no
 
 Package: lubuntu-installer-prompt
 Architecture: amd64
 Depends: ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
+         calamares-settings-lubuntu,
+         qt6-qpa-plugins
 Pre-Depends: ${misc:Pre-Depends}
 Description: Live ISO prompt for trying or installing Lubuntu
- This project is in alpha. It may change drastically, or not. It presents a
- "Try or Install Lubuntu" screen.
- .
- Releases are signed with Simon Quigley's GPG key:
- 5C7ABEA20F8630459CC8C8B5E27F2CF8458C2FA4
- .
- Licensing info:
- .
-     *  Everything is GPL-3 by 2022 Lubuntu Developers
-        lubuntu-devel@lists.ubuntu.com unless stated otherwise.
-     *  img/background.png is licensed CC-BY-4.0, authored by Aaron Rainbolt
-        arraybolt3@gmail.com, copyright ownership the same as source
+ This application displays a screen allowing the user to either try or
+ install Lubuntu after booting the Lubuntu ISO file. It auto-launches
+ when the ISO is first booted, and will either launch Calamares or LXQt,
+ depending on the user's choice.
