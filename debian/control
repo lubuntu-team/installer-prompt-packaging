@@ -1,6 +1,6 @@
 Source: lubuntu-installer-prompt
 Maintainer: Lubuntu Developers <lubuntu-devel@lists.ubuntu.com>
-Uploaders: Simon Quigley <tsimonq2@ubuntu.com>
+Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
            Aaron Rainbolt <arraybolt3@gmail.com>
 Section: misc
 Priority: optional
