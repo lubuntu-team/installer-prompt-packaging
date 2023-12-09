@@ -6,8 +6,8 @@ Section: misc
 Priority: optional
 Build-Depends: cmake, debhelper-compat (= 13), qt6-base-dev, qt6-tools-dev
 Standards-Version: 4.6.2
-Vcs-Browser: https://github.com/lubuntu-team/installer-prompt/
-Vcs-Git: https://github.com/lubuntu-team/installer-prompt.git
+Vcs-Browser: https://git.lubuntu.me/Lubuntu/installer-prompt-packaging
+Vcs-Git: https://git.lubuntu.me/Lubuntu/installer-prompt-packaging.git
 Homepage: https://lubuntu.me
 Rules-Requires-Root: no
 
