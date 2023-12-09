@@ -4,6 +4,7 @@ lubuntu-installer-prompt (1.0.1-0ubuntu1) UNRELEASED; urgency=medium
   * Update Standards-version to 4.6.2, no changess needed.
   * Update Vcs-*.
   * Update build dependencies.
+  * Update Lintian overrides.
 
  -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 09 Dec 2023 13:31:09 -0600
 

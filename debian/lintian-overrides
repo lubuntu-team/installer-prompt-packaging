@@ -1,3 +1,8 @@
-# No CLI interface, and one of these is an internal component of the package.
-lubuntu-installer-prompt: no-manual-page usr/bin/lubuntu-installer
-lubuntu-installer-prompt: no-manual-page usr/bin/lubuntu-installer-prompt
+lubuntu-installer-prompt: no-manual-page [usr/bin/lubuntu-installer-prompt]
+lubuntu-installer-prompt: no-manual-page [usr/bin/start-lubuntu-live-env]
+lubuntu-installer-prompt: no-manual-page [usr/libexec/change-system-language]
+lubuntu-installer-prompt: no-manual-page [usr/libexec/lubuntu-installer]
+lubuntu-installer-prompt: desktop-entry-lacks-icon-entry [usr/share/xsessions/lubuntu-live-environment.desktop]
+lubuntu-installer-prompt: desktop-entry-lacks-keywords-entry [usr/share/xsessions/lubuntu-live-environment.desktop]
+lubuntu-installer-prompt: spelling-error-in-binary CyMK CMYK [usr/bin/lubuntu-installer-prompt]
+lubuntu-installer-prompt: spelling-error-in-binary NAm Name [usr/bin/lubuntu-installer-prompt]
