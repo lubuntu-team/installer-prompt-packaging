@@ -5,7 +5,7 @@ Uploaders: Simon Quigley <tsimonq2@ubuntu.com>,
 Section: misc
 Priority: optional
 Build-Depends: cmake, debhelper-compat (= 13), qt6-base-dev, qt6-tools-dev
-Standards-Version: 4.6.1
+Standards-Version: 4.6.2
 Vcs-Browser: https://github.com/lubuntu-team/installer-prompt/
 Vcs-Git: https://github.com/lubuntu-team/installer-prompt.git
 Homepage: https://lubuntu.me
