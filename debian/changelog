@@ -1,7 +1,19 @@
+lubuntu-installer-prompt (1.1.1-0ubuntu2) noble; urgency=medium
+
+  * Ensure C is not the default locale, to the user.
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 23 Dec 2023 18:03:34 -0600
+
+lubuntu-installer-prompt (1.1.1-0ubuntu1) noble; urgency=medium
+
+  * New upstream release (LP: #2046099).
+
+ -- Simon Quigley <tsimonq2@ubuntu.com>  Sat, 23 Dec 2023 17:06:34 -0600
+
 lubuntu-installer-prompt (1.0.1-0ubuntu1) noble; urgency=medium
 
   * New upstream release.
-  * Update Standards-version to 4.6.2, no changess needed.
+  * Update Standards-version to 4.6.2, no changes needed.
   * Update Vcs-*.
   * Update build dependencies.
   * Update Lintian overrides.

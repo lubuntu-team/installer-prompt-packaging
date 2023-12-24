@@ -1,5 +1,5 @@
 lubuntu-installer-prompt: no-manual-page [usr/bin/lubuntu-installer-prompt]
-lubuntu-installer-prompt: no-manual-page [usr/bin/start-lubuntu-live-env]
+lubuntu-installer-prompt: no-manual-page [usr/libexec/start-lubuntu-live-env]
 lubuntu-installer-prompt: no-manual-page [usr/libexec/change-system-language]
 lubuntu-installer-prompt: no-manual-page [usr/libexec/lubuntu-installer]
 lubuntu-installer-prompt: desktop-entry-lacks-icon-entry [usr/share/xsessions/lubuntu-live-environment.desktop]
